@@ -2,6 +2,8 @@
 
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/tommyettinger/gdx-liftoff).
 
+![screenshot](https://github.com/MonstrousSoftware/SimpleVehicle/assets/49096535/106bb8d5-64e7-4e4a-9e01-8b3900dfea98)
+
 Demo of simple car driving physics without the use of a physics library.
 
 The demo allows to accelerate (W) and brake (S), to steer (A, D) and to change gears (UP, DOWN).
@@ -14,7 +16,7 @@ Limitations are due to not having an underlying physics model:
 - There is a fake understeer effect to avoid turning very fast at high speed (by clamping the car rotation speed).
 - There is no oversteer effect, the tires have perfect grip. You cannot do wheel spin.
 
-
+To develop this into a racing game, you would need to combine it with a physics library such as Bullet.
 
 
 
